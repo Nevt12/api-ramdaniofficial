@@ -1,28 +1,33 @@
 {
-  "name": "api-ramdaniofficial",
-  "version": "1.1.0",
-  "description": "No Banyak bacot",
+  "name": "rest-api-alpis",
+  "version": "2.0.0",
+  "description": "make by alip free rest api",
   "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "node": "nodemon index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ramdaniofficial/api-ramdaniofficial.git"
+    "url": "git+https://github.com/AlipBot/Api-Alpis.git"
   },
   "keywords": [
-    "simple",
-    "api",
-    "rest",
-    "api"
+    "restapi",
+    "bot",
+    "whatsaap"
   ],
-  "author": "Ramdani Official",
+  "author": "AlipBot",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ramdaniofficial/api-ramdaniofficial/issues"
+    "url": "https://github.com/AlipBot/Api-Alpis/issues"
   },
-  "homepage": "https://github.com/Ramdaniofficial/api-ramdaniofficial#readme"
+  "homepage": "https://github.com/AlipBot/Api-Alpis#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "brainly-scraper-v2": "^1.1.2",
